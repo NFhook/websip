@@ -1,18 +1,18 @@
-# `SipAppDemo`
+# `WebSIP Demo`
 
-### `sip demo`
+### `websip demo`
 
-> base janus-gateway sip demo and  angular 16
+> base janus-gateway sip plugin and  angular 16
 
 ```bash
-$ ng new sipApp
+$ ng new websip
 $ npm install janus-gateway
 ```
 
 > demo
 ```bash
-$ git clone https://github.com/NFhook/SipAppDemo.git
-$ cd SipAppDemo
+$ git clone https://github.com/NFhook/websip.git
+$ cd websip
 $ npm install
 $ npm run dev
 ```
@@ -112,7 +112,7 @@ TODO:
 
 ![direct_register](https://github.com/NFhook/sipAppDemo/blob/main/src/assets/images/sipapp/direct_register.png)
 
->  proxy register:
+>  domain register:
 >
 >  > register to opensips:
 >
@@ -181,4 +181,5 @@ TODO:
 >  ```
 
 ![proxy_register](https://github.com/NFhook/sipAppDemo/blob/main/src/assets/images/sipapp/proxy_register.png)
+
 
